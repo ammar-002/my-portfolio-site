@@ -9,7 +9,7 @@ const SingleProject = () => {
             
     ]
   return (
-    <div className=' text-[var(--color-white)] text-3xl flex justify-center'>
+    <div className=' text-white text-3xl flex justify-center'>
         COMING SOON!
     </div>
   )
