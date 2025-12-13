@@ -24,4 +24,6 @@
   body {
     background-color: var(--color-darkBrown);
   }
-  
+  html {
+  scroll-behavior: smooth;
+}

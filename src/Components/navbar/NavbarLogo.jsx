@@ -2,7 +2,7 @@ import React from 'react'
 
 const NavbarLogo = () => {
   return (
-     <div className='cursor-pointer'>
+     <div  className='cursor-pointer'>
       <h1 className="text-white text-2xl hidden lg:block font-extrabold">
        Muhammad Ammar
       </h1>

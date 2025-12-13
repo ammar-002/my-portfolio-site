@@ -1,26 +1,45 @@
 import React from "react";
 import { BiLogoGmail } from "react-icons/bi";
-import { FaPhoneAlt } from "react-icons/fa";
-import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
+
 const ContactRight = () => {
   return (
     <div className="md:max-w-[40vw] max-w-[70vw] mx-auto pt-5 md:pt-1 flex flex-col gap-5 items-center">
-      <img src="contact.png" className="h-[180px]" alt="" />
-      <div className="flex flex-col gap-3 ">
-        <div className="flex items-center gap-2 text-[var(--color-white)] text-lg ">
+      <img src="contact.png" className="h-[180px]" alt="Contact Illustration" />
+      <div className="flex flex-col gap-3">
+        {/* Email Link */}
+        <div className="flex items-center gap-2 text-[var(--color-white)] text-lg">
           <BiLogoGmail />
-          <p> sayhi2ammar@gmail.com</p>
+          <a
+            href="mailto:sayhi2ammar@gmail.com"
+            className="hover:text-[var(--color-orange)] transition-colors duration-300"
+          >
+            sayhi2ammar@gmail.com
+          </a>
         </div>
-        <div className="text-[var(--color-white)] text-lg flex items-center gap-2">
+
+        {/* Phone Link */}
+        <div className="flex items-center gap-2 text-[var(--color-white)] text-lg">
           <FaPhoneAlt />
-          <p> +923273614062</p>
+          <a
+            href="tel:+923273614062"
+            className="hover:text-[var(--color-orange)] transition-colors duration-300"
+          >
+            +92 327 3614062
+          </a>
         </div>
-        <div className="text-[var(--color-white)] text-lg flex items-center gap-2">
+
+        {/* Address Link (Google Maps) */}
+        <div className="flex items-center gap-2 text-[var(--color-white)] text-lg">
           <FaMapMarkerAlt />
-          <p className="text-[var(--color-white)] text-lg ">
-            {" "}
-            Sector 11-F New Karachi,Karachi
-          </p>
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=Sector+11-F+New+Karachi+Karachi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[var(--color-orange)] transition-colors duration-300"
+          >
+            Sector 11-F, New Karachi, Karachi
+          </a>
         </div>
       </div>
     </div>

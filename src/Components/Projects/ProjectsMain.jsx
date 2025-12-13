@@ -4,7 +4,7 @@ import SingleProject from './SingleProject'
 
 const ProjectsMain = () => {
   return (
-    <div className='w-[75vw] h-[50vh] mx-auto flex flex-col items-center justify-center gap-5 '>
+    <div id='projects' className='w-[75vw]  mt-30 mx-auto flex flex-col items-center justify-center gap-5 '>
       <ProjectText />
       <SingleProject />
     </div>
