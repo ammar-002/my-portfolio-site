@@ -19,6 +19,7 @@ const SingleProject = () => {
                         className="group relative bg-[var(--color-darkBrown)] rounded-lg overflow-hidden border border-[var(--color-grey)] hover:border-[var(--color-orange)] transition-all duration-300"
                     >
                         {/* Project Image */}
+                        {/* Project Image */}
                         <div className="relative h-64 bg-[var(--color-black)] overflow-hidden">
                             <img
                                 src={project.image}
@@ -29,8 +30,8 @@ const SingleProject = () => {
                                 }}
                             />
                             
-                            {/* Overlay with icons - shows on hover */}
-                            <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
+                            {/* Overlay with icons - shows on hover for larger screens, always visible on mobile */}
+                            <div className="absolute inset-0 bg-black/70 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
                                 {/* GitHub Icon */}
                                 <a
                                     href={project.github}
