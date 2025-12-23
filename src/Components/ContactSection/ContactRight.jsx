@@ -11,10 +11,11 @@ const ContactRight = () => {
         <div className="flex items-center gap-2 text-[var(--color-white)] text-lg">
           <BiLogoGmail />
           <a
-            href="mailto:sayhi2ammar@gmail.com"
+            href="mailto:iammuhammadammar2@gmail.com"
+            target="blank"
             className="hover:text-[var(--color-orange)] transition-colors duration-300"
           >
-            sayhi2ammar@gmail.com
+            iammuhammadammar2@gmail.com
           </a>
         </div>
 
