@@ -2,7 +2,7 @@ import React from 'react'
 import NavbarMain from './Components/navbar/NavbarMain'
 import HeroMain from './Components/HeroSection/HeroMain'
 import SubHero from './Components/Subhero/SubHero'
-import AboutMain from './Components/AboutSection/AboutMain'
+// import AboutMain from './Components/AboutSection/AboutMain'
 import SkillsMain from './Components/SkillsSection/SkillsMain'
 import Helper from './Components/HelperSection/Helper'
 import ProjectsMain from './Components/Projects/ProjectsMain'
@@ -15,7 +15,7 @@ const App = () => {
       <NavbarMain />
       <HeroMain />
       <SubHero />
-      <AboutMain />
+      {/* <AboutMain /> */}
       <SkillsMain  />
       <ProjectsMain />
       <ContectMain />
