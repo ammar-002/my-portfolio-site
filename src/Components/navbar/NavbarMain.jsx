@@ -29,7 +29,7 @@ const NavbarMain = () => {
 
       {toggle && (
         <div 
-          className="fixed top-0 left-0 w-full h-screen bg-black/80 backdrop-blur-md z-10 lg:hidden flex items-start justify-center pt-32"
+          className="fixed top-0 left-0 w-full h-screen   z-10 lg:hidden flex items-start justify-center pt-32"
           onClick={() => setToggle(false)}
           style={{
             animation: 'fadeIn 0.3s ease-out'
