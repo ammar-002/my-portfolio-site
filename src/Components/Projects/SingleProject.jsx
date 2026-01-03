@@ -2,9 +2,9 @@ import React from "react";
 
 const SingleProject = () => {
     const projects = [
-        {id: 1, name: 'Full Stack Job Portal', image: '/projects/project-do-job.png', github: 'https://github.com/ammar-002/job-portal', live: 'https://job-portal-by-ammar.vercel.app/'},
-        {id: 2, name: 'Full Stack Ecommerce Website', image: '/projects/project-fabrico.png', github: 'https://github.com/ammar-002/fabrico-ecommerce-app', live: 'https://fabrico-mens-wear.vercel.app/'},
-        {id: 3, name: 'Portfolio Website', image: '/projects/portfolio.png', github: 'https://github.com/ammar-002/my-portfolio-site', live: '/'},
+        {id: 1, name: 'MERN-based job portal with authentication and REST APIs.', image: '/projects/project-do-job.png', github: 'https://github.com/ammar-002/job-portal', live: 'https://job-portal-by-ammar.vercel.app/'},
+        {id: 2, name: 'Ecommerce platform with product listings, cart system, and order flow.', image: '/projects/project-fabrico.png', github: 'https://github.com/ammar-002/fabrico-ecommerce-app', live: 'https://fabrico-mens-wear.vercel.app/'},
+        {id: 3, name: 'Personal portfolio website built to showcase projects and skills.', image: '/projects/portfolio.png', github: 'https://github.com/ammar-002/my-portfolio-site', live: '/'},
     ];
 
     return (

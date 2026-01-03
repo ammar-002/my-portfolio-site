@@ -20,7 +20,7 @@ const AllSkills = () => {
     { name: "Python", icon: <FaPython />  },
   ];
   return (
-    <div >
+    <div className=" ">
       <SingleSkill skills={skills} />
     </div>
   );

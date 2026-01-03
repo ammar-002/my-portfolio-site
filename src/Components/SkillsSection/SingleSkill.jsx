@@ -1,7 +1,7 @@
 import React from "react";
 const SingleSkill = ({ skills }) => {
   return (
-    <div className="flex md:gap-2 gap-10 justify-center max-w-[75vw] md:flex-nowrap flex-wrap items-center md:h-[30vh] ">
+    <div className="flex md:gap-2 gap-10 justify-center -ml-10    md:flex-nowrap flex-wrap items-center md:h-[30vh] ">
       {skills.map((skill, index) => {
         return (
           <div
