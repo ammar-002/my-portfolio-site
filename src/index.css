@@ -20,7 +20,160 @@
     --color-darkGrey: #3f4441;
     --font-body: "Josefin Sans", "sans-serif"; 
     --font-special: "Nunito", "sans-serif"; 
-  }
+
+ 
+
+  /* ═══════════════════════════════════════
+     Colors (Premium, Calm, Professional)
+  ════════════════════════════════════════ */
+
+  --chat--color--primary: #FB9718 !important;                /* Amber */
+  --chat--color--primary-shade-50: #FB9718 !important;
+  --chat--color--primary--shade-100: #FB9718 !important;
+
+  --chat--color--secondary: #0f766e !important;             /* Teal */
+  --chat--color-secondary-shade-50: #115e59 !important;
+
+  --chat--color-white: #ffffff !important;
+  --chat--color-light: #f8fafc !important;
+  --chat--color-light-shade-50: #e5e7eb !important;
+  --chat--color-light-shade-100: #cbd5e1 !important;
+  --chat--color-medium: #9ca3af !important;
+  --chat--color-dark: #0f172a !important;
+
+  --chat--color-disabled: #cbd5e1 !important;
+  --chat--color-typing: #475569 !important;
+
+  /* ═══════════════════════════════════════
+     Base Layout
+  ════════════════════════════════════════ */
+
+  --chat--spacing: 1rem !important;
+  --chat--border-radius: 0.75rem !important;
+  --chat--transition-duration: 0.2s !important;
+
+  --chat--font-family:
+    ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
+
+  /* ═══════════════════════════════════════
+     Window
+  ════════════════════════════════════════ */
+
+  --chat--window--width: 400px !important;
+  --chat--window--height: 600px !important;
+  --chat--window--bottom: var(--chat--spacing) !important;
+  --chat--window--right: var(--chat--spacing) !important;
+  --chat--window--z-index: 9999 !important;
+  --chat--window--border: 1px solid var(--chat--color-light-shade-50) !important;
+  --chat--window--border-radius: 1rem !important;
+  --chat--window--margin-bottom: var(--chat--spacing) !important;
+
+  /* ═══════════════════════════════════════
+     Header
+  ════════════════════════════════════════ */
+
+  --chat--header-height: auto !important;
+  --chat--header--padding: var(--chat--spacing) !important;
+  --chat--header--background: #2C2523 !important;
+  --chat--header--color: #f8fafc !important;
+
+  --chat--header--border-top: none !important;
+  --chat--header--border-bottom: none !important;
+  --chat--header--border-left: none !important;
+  --chat--header--border-right: none !important;
+
+  --chat--heading--font-size: 1.25rem !important;
+  --chat--subtitle--font-size: 0.9rem !important;
+  --chat--subtitle--line-height: 1.6 !important;
+
+  /* ═══════════════════════════════════════
+     Messages
+  ════════════════════════════════════════ */
+
+  --chat--message--font-size: 1rem !important;
+  --chat--message--padding: 0.75rem 1rem !important;
+  --chat--message--border-radius: 0.75rem !important;
+  --chat--message-line-height: 1.6 !important;
+  --chat--message--margin-bottom: 0.75rem !important;
+
+  --chat--message--bot--background: #ffffff !important;
+  --chat--message--bot--color: #0f172a !important;
+  --chat--message--bot--border: 1px solid #e5e7eb !important;
+
+  --chat--message--user--background:  #EF9A38 !important;
+  --chat--message--user--color: #121212 !important;
+  --chat--message--user--border: blue !important;
+
+  --chat--message--pre--background: #413d1b !important;
+  --chat--messages-list--padding: 1rem !important;
+
+  /* ═══════════════════════════════════════
+     Toggle Button
+  ════════════════════════════════════════ */
+
+  --chat--toggle--size: 60px !important;
+  --chat--toggle--width: var(--chat--toggle--size) !important;
+  --chat--toggle--height: var(--chat--toggle--size) !important;
+  --chat--toggle--border-radius: 50% !important;
+
+  --chat--toggle--background: linear-gradient(
+    135deg,
+    #FF6B35,
+    #FB9718
+  ) !important;
+  --chat--toggle--hover--background: #FB9718 !important;
+  --chat--toggle--active--background: #FB9718 !important;
+  --chat--toggle--color: #020617 !important;
+
+  /* ═══════════════════════════════════════
+     Input Area
+  ════════════════════════════════════════ */
+
+  --chat--textarea--height: 52px !important;
+  --chat--textarea--max-height: 24rem !important;
+  --chat--input--font-size: 0.95rem !important;
+  --chat--input--border: 0 !important;
+  --chat--input--border-radius: 0 !important;
+  --chat--input--padding: 0.75rem !important;
+  --chat--input--background: #fbfbfb !important;
+  --chat--input--text-color: #000000 !important;
+  --chat--input--line-height: 1.5 !important;
+  --chat--input--placeholder--font-size: inherit !important;
+  --chat--input--border-active: 0 !important;
+  --chat--input--left--panel--width: 2rem !important;
+
+  /* ═══════════════════════════════════════
+     Buttons
+  ════════════════════════════════════════ */
+
+  --chat--button--padding: 0.6rem 1rem !important;
+  --chat--button--border-radius: 0.6rem !important;
+  --chat--button--font-size: 0.9rem !important;
+  --chat--button--line-height: 1 !important;
+
+  --chat--button--color--primary: #ffffff !important;
+  --chat--button--background--primary: #0f766e !important;
+  --chat--button--border--primary: none !important;
+
+  --chat--button--color--primary--hover: #ffffff !important;
+  --chat--button--background--primary--hover: #115e59 !important;
+  --chat--button--border--primary--hover: none !important;
+
+  --chat--button--color--primary--disabled: #ffffff !important;
+  --chat--button--background--primary--disabled: #94a3b8 !important;
+
+  --chat--close--button--color-hover: #f59e0b !important;
+
+  /* ═══════════════════════════════════════
+     Body & Footer
+  ════════════════════════════════════════ */
+
+  --chat--body--background: #f8fafc !important;
+  --chat--footer--background: #f8fafc !important;
+  --chat--footer--color: #0f172a !important;
+}
+  
   body {
     background-color: var(--color-darkBrown);
   }
